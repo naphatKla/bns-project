@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="xml[bit].dat.files\\client.config2.xml">
+<search><![CDATA[<option name="hidden-pc-name-rating" value="160000"/>]]></search>
+<replace><![CDATA[<option name="hidden-pc-name-rating" value="0"/>]]></replace>
+<description>Show names in PvP.</description>
+</file>
+</files>

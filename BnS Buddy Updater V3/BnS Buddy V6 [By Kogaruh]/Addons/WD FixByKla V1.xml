@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="xml[bit].dat.files\\skill3_contextscriptdata_warrior_g1_contextsimplemode.xml">
+<description>Move skill counter[1] to simplemode and use f tab auto when got CC</description>
+<search><![CDATA[<result context-3="201490" control-mode="classic" skillbar-ui-effect="key-change"/>]]></search>
+<replace><![CDATA[<result context-3="201490" control-mode="classic" skillbar-ui-effect="key-change" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-3="201490" control-mode="bns" skillbar-ui-effect="key-change"/>]]></search>
+<replace><![CDATA[<result context-3="201490" control-mode="bns" skillbar-ui-effect="key-change" key-status="unpress"/>]]></replace>
+<description>use fIframe[F] auto</description>
+<search><![CDATA[<result control-mode="classic" stance="201400"/>]]></search>
+<replace><![CDATA[<result control-mode="classic" stance="201400" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" stance="201400"/>]]></search>
+<replace><![CDATA[<result control-mode="bns" stance="201400" key-status="unpress"/>]]></replace>
+<description>use tabIframe[TAB] auto</description>
+<search><![CDATA[<result control-mode="bns" skillbar-1="201082" skillbar-ui-effect="key-change"/>]]></search>
+<replace><![CDATA[<result control-mode="bns" skillbar-1="201082" skillbar-ui-effect="key-change" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" skillbar-1="201081" skillbar-ui-effect="key-change"/>]]></search>
+<replace><![CDATA[<result control-mode="bns" skillbar-1="201081" skillbar-ui-effect="key-change" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" skillbar-1="201080" skillbar-ui-effect="key-change"/>]]></search>
+<replace><![CDATA[<result control-mode="bns" skillbar-1="201080" skillbar-ui-effect="key-change" key-status="unpress"/>]]></replace>
+<description>move counter to simplemode and auto</description>
+</file>
+</files>

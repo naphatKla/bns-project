@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="xml[bit].dat.files\\skill3_contextscriptdata_warrior_g1_contextsimplemode.xml">
+<search><![CDATA[<result control-mode="bns" skillbar-1="201082" skillbar-ui-effect="key-change"/>]]></search>
+<replace><![CDATA[<result control-mode="bns" skillbar-1="201082" skillbar-ui-effect="key-change" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" skillbar-1="201081" skillbar-ui-effect="key-change"/>]]></search>
+<replace><![CDATA[<result control-mode="bns" skillbar-1="201081" skillbar-ui-effect="key-change" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" skillbar-1="201080" skillbar-ui-effect="key-change"/>]]></search>
+<replace><![CDATA[<result control-mode="bns" skillbar-1="201080" skillbar-ui-effect="key-change" key-status="unpress"/>]]></replace>
+<description>move counter to simplemode and auto</description>
+</file>
+</files>

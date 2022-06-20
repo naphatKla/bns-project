@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="xml[bit].dat.files\\skill3_contextscriptdata_forcemaster_contextsimplemode_g2.xml">
+<!-- remove c out of simplemode-->
+<search><![CDATA[<result context-2="132090" context-ui-effect="event" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-2="132090" context-ui-effect="event"/>]]></replace>
+<!-- skill fire stance -->
+<search><![CDATA[<result cmd-key-double-left="65011" cmd-key-double-right="65012" cmd-key-down="131270" cmd-key-left="131300" cmd-key-right="131310" context-1="131020" context-2="132000" context-3="131030" control-mode="bns" skillbar-1="132010" skillbar-2="132040" skillbar-3="132060" skillbar-4="131090" skillbar-5="132050" skillbar-6="132070" skillbar-7="132090" skillbar-8="132130" stance="131220"/>]]></search>
+<replace><![CDATA[<result cmd-key-double-left="65011" cmd-key-double-right="65012" cmd-key-down="131270" cmd-key-left="131300" cmd-key-right="131310" context-1="131020" context-2="132000" context-3="131030" control-mode="bns" skillbar-1="132010" skillbar-2="132100" skillbar-3="132060" skillbar-4="131090" skillbar-5="132050" skillbar-6="132080" skillbar-7="132090" skillbar-8="132210" stance="132110" special-1="132150" special-2="131190"/>]]></replace>
+<!-- skill ice stamce -->
+<search><![CDATA[<result cmd-key-double-left="65011" cmd-key-double-right="65012" cmd-key-down="131270" cmd-key-left="131300" cmd-key-right="131310" context-1="131020" context-2="132000" context-3="131030" control-mode="bns" skillbar-1="132010" skillbar-2="132040" skillbar-3="132060" skillbar-4="131090" skillbar-5="132150" skillbar-6="132080" skillbar-7="131190" skillbar-8="132210" stance="132110"/>]]></search>
+<replace><![CDATA[<result cmd-key-double-left="65011" cmd-key-double-right="65012" cmd-key-down="131270" cmd-key-left="131300" cmd-key-right="131310" context-1="131020" context-2="132000" context-3="131030" control-mode="bns" skillbar-1="132010" skillbar-2="132100" skillbar-3="132060" skillbar-4="131090" skillbar-5="132050" skillbar-6="132080" skillbar-7="132090" skillbar-8="132210" stance="132110" special-2="131190" special-1="132150"/>]]></replace>
+<!-- change z knock to special-1 frost stance-->
+<search><![CDATA[<result control-mode="bns" skillbar-5="132151" stance-ui-effect="combo"/>]]></search>
+<replace><![CDATA[<result control-mode="bns" special-1="132151" stance-ui-effect="combo"/>]]></replace>
+<!-- add z knock in fire stance and add tab armo to 2 -->
+<search><![CDATA[<stance stance="강기공">]]></search>
+<replace><![CDATA[<stance stance="강기공"><layer><decision><condition skill="132151"/><result control-mode="bns" special-1="132151" stance-ui-effect="combo"/></decision></layer><layer><decision><condition skill="132020"/><result control-mode="bns" skillbar-2="132020" stance-ui-effect="combo"/></decision></layer>]]></replace>
+<!-- remove tab fire stance -->
+<search><![CDATA[<result control-mode="bns" stance="132100"/>]]></search>
+<replace><![CDATA[<result stance="132100"/>]]></replace>
+<!-- add tab armor in fire stance -->
+<search><![CDATA[<stance stance="강기공">]]></search>
+<replace><![CDATA[<stance stance="강기공"><layer><decision><condition skill="132020"/><result control-mode="bns" skillbar-2="132020" stance-ui-effect="combo"/></decision></layer><layer><decision><condition skill="132111"/><result cmd-key-double-left="501" cmd-key-double-right="501" cmd-key-down="131270" cmd-key-left="131300" cmd-key-right="131310" context-3="501" control-mode="bns" skillbar-1="132112" skillbar-2="501" skillbar-3="501" skillbar-4="501" skillbar-5="501" skillbar-6="501" skillbar-7="501" skillbar-8="501" stance="132111" stance-ui-effect="combo"/></decision></layer>]]></replace>
+
+<description>Fm ice simplemode fix</description>
+</file>
+</files>
+
+<!--
+<search><![CDATA[ ]]></search>
+<replace><![CDATA[ ]]></replace>
+<layer><decision><condition skill="132111"/><result cmd-key-double-left="501" cmd-key-double-right="501" cmd-key-down="131270" cmd-key-left="131300" cmd-key-right="131310" context-3="501" control-mode="bns" skillbar-1="132112" skillbar-2="501" skillbar-3="501" skillbar-4="501" skillbar-5="501" skillbar-6="501" skillbar-7="501" skillbar-8="501" stance="132111" stance-ui-effect="combo"/></decision></layer>
+-->
+
+

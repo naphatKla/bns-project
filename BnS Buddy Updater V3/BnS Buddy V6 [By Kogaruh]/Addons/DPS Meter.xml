@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="xml[bit].dat.files\\client.config2.xml">
+<search><![CDATA[<option name="showtype-public-zone" value="0"/>]]></search>
+<replace><![CDATA[<option name="showtype-public-zone" value="2"/>]]></replace>
+<search><![CDATA[<option name="showtype-party-6-dungeon-and-cave" value="1"/>]]></search>
+<replace><![CDATA[<option name="showtype-party-6-dungeon-and-cave" value="2"/>]]></replace>
+<search><![CDATA[<option name="showtype-field-zone" value="0"/>]]></search>
+<replace><![CDATA[<option name="showtype-field-zone" value="2"/>]]></replace>
+<search><![CDATA[<option name="showtype-classic-field-zone" value="0"/>]]></search>
+<replace><![CDATA[<option name="showtype-classic-field-zone" value="2"/>]]></replace>
+<search><![CDATA[<option name="showtype-faction-battle-field-zone" value="0"/>]]></search>
+<replace><![CDATA[<option name="showtype-faction-battle-field-zone" value="2"/>]]></replace>
+<search><![CDATA[<option name="showtype-jackpot-boss-zone" value="0"/>]]></search>
+<replace><![CDATA[<option name="showtype-jackpot-boss-zone" value="2"/>]]></replace>
+<search><![CDATA[<option name="show-effect-only-info" value="n"/>]]></search>
+<replace><![CDATA[<option name="show-effect-only-info" value="y"/>]]></replace>
+<description>This will activate DPS Meter when fighting most Bosses. Will also show other data that was previously hidden.</description>
+</file>
+</files>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="xml[bit].dat.files\\client.config2.xml">
+<search><![CDATA[<option name="loading-tip-refresh-cycle-duration" value="7"/>]]></search>
+<replace><![CDATA[<option name="loading-tip-refresh-cycle-duration" value="0"/>]]></replace>
+<description>Disable loading screen tips</description>
+</file>
+</files>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="xml[bit].dat.files\\client.config2.xml">
+<search><![CDATA[<option name="exit-game-waiting-time" value="10.000000"/>]]></search>
+<replace><![CDATA[<option name="exit-game-waiting-time" value="1.000000"/>]]></replace>
+<description>Makes the game close faster.</description>
+</file>
+</files>

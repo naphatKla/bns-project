@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="xml[bit].dat.files\\skill3_contextscriptdata_forcemaster_contextsimplemode_g1.xml">
+<!-- Remove old skill -->
+<!-- skill 1 -->
+<search><![CDATA[<result context-2="131040" context-ui-effect="event" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-2="131040" context-ui-effect="event"/>]]></replace>
+<!-- skill F -->
+<search><![CDATA[<result context-2="131180" context-ui-effect="key-change" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-2="131180" context-ui-effect="key-change"/>]]></replace>
+<!-- skill V -->
+<search><![CDATA[<result context-2="131200" context-ui-effect="event" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-2="131200" context-ui-effect="event"/>]]></replace>
+<!-- skill X2 -->
+<search><![CDATA[<result context-2="131161" context-ui-effect="combo" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-2="131161" context-ui-effect="combo"/>]]></replace>
+<!-- skill X1 -->
+<search><![CDATA[<result context-2="131162" context-ui-effect="event" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-2="131162" context-ui-effect="event"/>]]></replace>
+<!-- skill C -->
+<search><![CDATA[<result context-2="131250" context-ui-effect="event" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-2="131250" context-ui-effect="event"/>]]></replace>
+<!-- skill LMB -->
+<search><![CDATA[<result context-2="131000" control-mode="bns" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result context-2="131000" skillbar-ui-effect="event"/>]]></replace>
+<!-- skill RMB -->
+<search><![CDATA[<result context-2="131010" control-mode="bns" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result context-2="131010" skillbar-ui-effect="event"/>]]></replace>
+<!-- skill 2 bern -->
+<search><![CDATA[<result context-2="131060" context-ui-effect="event" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-2="131060" context-ui-effect="event"/>]]></replace>
+<search><![CDATA[<result context-2="131061" context-ui-effect="event" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-2="131061" context-ui-effect="event"/>]]></replace>
+<!-- skill 2 -->
+<search><![CDATA[<result context-2="131070" control-mode="bns" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result context-2="131070" skillbar-ui-effect="event"/>]]></replace>
+<search><![CDATA[<result context-2="131071" control-mode="bns" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result context-2="131071" skillbar-ui-effect="event"/>]]></replace>
+<search><![CDATA[<result context-2="131072" control-mode="bns" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result context-2="131072" skillbar-ui-effect="event"/>]]></replace>
+<search><![CDATA[<result context-2="131073" control-mode="bns" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result context-2="131073" skillbar-ui-effect="event"/>]]></replace>
+<!-- skill v frozeStance -->
+<search><![CDATA[<result control-mode="bns" skillbar-8="131400" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result skillbar-8="131400" skillbar-ui-effect="event"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" skillbar-8="131401" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result skillbar-8="131401" skillbar-ui-effect="event"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" skillbar-8="131402" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result skillbar-8="131402" skillbar-ui-effect="event"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" skillbar-8="131403" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result skillbar-8="131403" skillbar-ui-effect="event"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" skillbar-8="131404" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result skillbar-8="131404" skillbar-ui-effect="event"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" skillbar-8="131405" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result skillbar-8="131405" skillbar-ui-effect="event"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" skillbar-8="131406" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result skillbar-8="131406" skillbar-ui-effect="event"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" skillbar-8="131407" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result skillbar-8="131407" skillbar-ui-effect="event"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" skillbar-8="131408" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result skillbar-8="131408" skillbar-ui-effect="event"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" skillbar-8="131409" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result skillbar-8="131409" skillbar-ui-effect="event"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" skillbar-8="131410" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result skillbar-8="131410" skillbar-ui-effect="event"/>]]></replace>
+<!-- skill Z knockdown -->
+<search><![CDATA[<result control-mode="bns" skillbar-5="131151" stance-ui-effect="combo"/>]]></search>
+<replace><![CDATA[<result skillbar-5="131151" stance-ui-effect="combo"/>]]></replace>
+<!-- skill 2 & 2SB -->
+<search><![CDATA[<result control-mode="bns" skillbar-2="131071" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result skillbar-2="131071" skillbar-ui-effect="event"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" skillbar-2="131072" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result skillbar-2="131072" skillbar-ui-effect="event"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" skillbar-2="131073" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result skillbar-2="131073" skillbar-ui-effect="event"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" skillbar-2="131060" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result skillbar-2="131060" skillbar-ui-effect="event"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" skillbar-2="131061" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result skillbar-2="131061" skillbar-ui-effect="event"/>]]></replace>
+
+<!-- Add New skill adjust -->
+<!-- Fire stance V 2SB RMB LMB 2 -->
+<search><![CDATA[<stance stance="강기공">]]></search>
+<replace><![CDATA[<stance stance="강기공"><layer><decision><condition skill="131200"/><result context-2="131200" control-mode="bns"/></decision></layer><layer><decision><condition skill="131200"/><result skillbar-4="131200" control-mode="bns"/></decision></layer><layer><decision><condition skill="131200"/><result context-1="131200" control-mode="bns" key-status="unpress"/></decision></layer><layer><decision><condition skill="131040"/><result context-2="131040" control-mode="bns"/></decision></layer><layer><decision><condition skill="131162"/><result context-2="131162" control-mode="bns"/></decision></layer><layer><decision><condition skill="131161"/><result context-2="131161" control-mode="bns"/></decision></layer><layer><decision><condition skill="131180"/><result context-2="131180" control-mode="bns"/></decision></layer><layer><decision><condition skill="131250"/><result context-2="131250" control-mode="bns"/></decision></layer><layer><decision><condition skill="131010"/><result context-2="131010" control-mode="bns"/></decision></layer><layer><decision><condition skill="131000"/><result context-2="131000" control-mode="bns"/></decision></layer><layer><decision><condition skill="131061"/><result context-2="131061" control-mode="bns"/></decision></layer><layer><decision><condition skill="131060"/><result context-2="131060" control-mode="bns"/></decision></layer><layer><decision><condition skill="131073"/><result context-2="131073" control-mode="bns"/></decision></layer><layer><decision><condition skill="131072"/><result context-2="131072" control-mode="bns"/></decision></layer><layer><decision><condition skill="131071"/><result context-2="131071" control-mode="bns"/></decision></layer><layer><decision><condition skill="131070"/><result context-2="131070" control-mode="bns"/></decision></layer><layer><decision><condition skill="131410"/><result skillbar-2="131410" control-mode="bns"/></decision></layer><layer><decision><condition skill="131409"/><result skillbar-2="131409" control-mode="bns"/></decision></layer><layer><decision><condition skill="131408"/><result skillbar-2="131408" control-mode="bns"/></decision></layer><layer><decision><condition skill="131407"/><result skillbar-2="131407" control-mode="bns"/></decision></layer><layer><decision><condition skill="131406"/><result skillbar-2="131406" control-mode="bns"/></decision></layer><layer><decision><condition skill="131405"/><result skillbar-2="131405" control-mode="bns"/></decision></layer><layer><decision><condition skill="131404"/><result skillbar-2="131404" control-mode="bns"/></decision></layer><layer><decision><condition skill="131403"/><result skillbar-2="131403" control-mode="bns"/></decision></layer><layer><decision><condition skill="131402"/><result skillbar-2="131402" control-mode="bns"/></decision></layer><layer><decision><condition skill="131401"/><result skillbar-2="131401" control-mode="bns"/></decision></layer><layer><decision><condition skill="131400"/><result skillbar-2="131400" control-mode="bns"/></decision></layer><layer><decision><condition skill="131151"/><result special-1="131151" control-mode="bns"/></decision></layer><layer><decision><condition skill="131231" variation-id="5"/><result cmd-key-double-left="501" cmd-key-double-right="501" cmd-key-down="131270" cmd-key-left="131300" cmd-key-right="131310" context-3="501" control-mode="bns" skillbar-1="131232" skillbar-2="501" skillbar-3="501" skillbar-4="501" skillbar-5="501" skillbar-6="501" skillbar-7="501" skillbar-8="501" stance="131231" stance-ui-effect="combo"/></decision></layer><layer><decision><condition skill="131150"/><result special-1="131150" control-mode="bns"/></decision></layer><layer><decision><condition skill="131170"/><result special-2="131170" control-mode="bns"/></decision></layer>]]></replace> 
+<!-- Frost stance V 1 X X C F 2SB RMB LMB 2 -->
+<search><![CDATA[<stance stance="연기공">]]></search>
+<replace><![CDATA[<stance stance="연기공"><layer><decision><condition skill="131200"/><result context-2="131200" control-mode="bns"/></decision></layer><layer><decision><condition skill="131200"/><result skillbar-4="131200" control-mode="bns"/></decision></layer><layer><decision><condition skill="131200"/><result context-1="131200" control-mode="bns" key-status="unpress"/></decision></layer><layer><decision><condition skill="131010"/><result context-2="131010" control-mode="bns"/></decision></layer><layer><decision><condition skill="131000"/><result context-2="131000" control-mode="bns"/></decision></layer><layer><decision><condition skill="131061"/><result context-2="131061" control-mode="bns"/></decision></layer><layer><decision><condition skill="131060"/><result context-2="131060" control-mode="bns"/></decision></layer><layer><decision><condition skill="131073"/><result context-2="131073" control-mode="bns"/></decision></layer><layer><decision><condition skill="131072"/><result context-2="131072" control-mode="bns"/></decision></layer><layer><decision><condition skill="131071"/><result context-2="131071" control-mode="bns"/></decision></layer><layer><decision><condition skill="131070"/><result context-2="131070" control-mode="bns"/></decision></layer><layer><decision><condition skill="131410"/><result skillbar-2="131410" control-mode="bns"/></decision></layer><layer><decision><condition skill="131409"/><result skillbar-2="131409" control-mode="bns"/></decision></layer><layer><decision><condition skill="131408"/><result skillbar-2="131408" control-mode="bns"/></decision></layer><layer><decision><condition skill="131407"/><result skillbar-2="131407" control-mode="bns"/></decision></layer><layer><decision><condition skill="131406"/><result skillbar-2="131406" control-mode="bns"/></decision></layer><layer><decision><condition skill="131405"/><result skillbar-2="131405" control-mode="bns"/></decision></layer><layer><decision><condition skill="131404"/><result skillbar-2="131404" control-mode="bns"/></decision></layer><layer><decision><condition skill="131403"/><result skillbar-2="131403" control-mode="bns"/></decision></layer><layer><decision><condition skill="131402"/><result skillbar-2="131402" control-mode="bns"/></decision></layer><layer><decision><condition skill="131401"/><result skillbar-2="131401" control-mode="bns"/></decision></layer><layer><decision><condition skill="131400"/><result skillbar-2="131400" control-mode="bns"/></decision></layer><layer><decision><condition skill="131151"/><result special-1="131151" control-mode="bns"/></decision></layer><layer><decision><condition skill="131150"/><result special-1="131150" control-mode="bns"/></decision></layer><layer><decision><condition skill="131170"/><result special-2="131170" control-mode="bns"/></decision></layer>]]></replace>
+
+<!-- skill slot change -->
+<!-- fireStance -->
+<search><![CDATA[<result cmd-key-double-left="65011" cmd-key-double-right="65012" cmd-key-down="131270" cmd-key-left="131300" cmd-key-right="131310" context-1="131020" context-2="131010" context-3="131030" control-mode="bns" skillbar-1="131040" skillbar-2="131070" skillbar-3="131080" skillbar-4="131090" skillbar-5="131140" skillbar-6="131160" skillbar-7="131250" skillbar-8="131200" stance="131220"/>]]></search>
+<replace><![CDATA[<result cmd-key-double-left="65011" cmd-key-double-right="65012" cmd-key-down="131270" cmd-key-left="131300" cmd-key-right="131310" context-1="131020" context-2="131010" context-3="131030" control-mode="bns" skillbar-1="131220" skillbar-2="131210" skillbar-3="131080" skillbar-4="131090" skillbar-5="131140" skillbar-6="131160" skillbar-7="131190" skillbar-8="131200" stance="131230" special-1="131150" special-2="131170"/>]]></replace>
+<!-- frozeStance -->
+<search><![CDATA[<result cmd-key-double-left="65011" cmd-key-double-right="65012" cmd-key-down="131270" cmd-key-left="131300" cmd-key-right="131310" context-1="131020" context-2="131010" context-3="131030" control-mode="bns" skillbar-1="131040" skillbar-2="131070" skillbar-3="131080" skillbar-4="131090" skillbar-5="131150" skillbar-6="131170" skillbar-7="131190" skillbar-8="131210" stance="131230"/>]]></search>
+<replace><![CDATA[<result cmd-key-double-left="65011" cmd-key-double-right="65012" cmd-key-down="131270" cmd-key-left="131300" cmd-key-right="131310" context-1="131020" context-2="131010" context-3="131030" control-mode="bns" skillbar-1="131220" skillbar-2="131210" skillbar-3="131080" skillbar-4="131090" skillbar-5="131140" skillbar-6="131160" skillbar-7="131190" skillbar-8="131200" stance="131230" special-2="131170" special-1="131150"/>]]></replace>
+</file>
+</files>
+
+<!-- 
+     <stance stance="강기공"> = fire
+     <stance stance="연기공"> = froze
+
+<search><![CDATA[]]></search>
+<replace><![CDATA[]]></replace>
+
+</decision></layer><layer><decision>
+
+fireStance
+<condition skill="131200"/><result context-2="131200" control-mode="bns"/>                                              ////   V
+</decision></layer><layer><decision><condition skill="131040"/><result context-2="131040" control-mode="bns"/>          ////   1         
+</decision></layer><layer><decision><condition skill="131162"/><result context-2="131162" control-mode="bns"/>          ////   X1     
+</decision></layer><layer><decision><condition skill="131161"/><result context-2="131161" control-mode="bns"/>          ////   X2  
+</decision></layer><layer><decision><condition skill="131180"/><result context-2="131180" control-mode="bns"/>          ////   F       
+</decision></layer><layer><decision><condition skill="131250"/><result context-2="131250" control-mode="bns"/>          ////   C
+</decision></layer><layer><decision><condition skill="131010"/><result context-2="131010" control-mode="bns"/>          ////   Rmb
+</decision></layer><layer><decision><condition skill="131000"/><result context-2="131000" control-mode="bns"/>          ////   Lmb
+</decision></layer><layer><decision><condition skill="131061"/><result context-2="131061" control-mode="bns"/>          ////   2SB
+</decision></layer><layer><decision><condition skill="131060"/><result context-2="131060" control-mode="bns"/>
+</decision></layer><layer><decision><condition skill="131073"/><result context-2="131073" control-mode="bns"/>          ////   2
+</decision></layer><layer><decision><condition skill="131072"/><result context-2="131072" control-mode="bns"/>
+</decision></layer><layer><decision><condition skill="131071"/><result context-2="131071" control-mode="bns"/>
+</decision></layer><layer><decision><condition skill="131070"/><result context-2="131070" control-mode="bns"/>   
+
+<condition skill="131200"/><result context-2="131200" control-mode="bns"/></decision></layer><layer><decision><condition skill="131200"/><result skillbar-4="131200" control-mode="bns"/></decision></layer><layer><decision><condition skill="131200"/><result context-1="131200" control-mode="bns" key-status="unpress"/></decision></layer><layer><decision><condition skill="131040"/><result context-2="131040" control-mode="bns"/></decision></layer><layer><decision><condition skill="131162"/><result context-2="131162" control-mode="bns"/></decision></layer><layer><decision><condition skill="131161"/><result context-2="131161" control-mode="bns"/></decision></layer><layer><decision><condition skill="131180"/><result context-2="131180" control-mode="bns"/></decision></layer><layer><decision><condition skill="131250"/><result context-2="131250" control-mode="bns"/></decision></layer><layer><decision><condition skill="131010"/><result context-2="131010" control-mode="bns"/></decision></layer><layer><decision><condition skill="131000"/><result context-2="131000" control-mode="bns"/></decision></layer><layer><decision><condition skill="131061"/><result context-2="131061" control-mode="bns"/></decision></layer><layer><decision><condition skill="131060"/><result context-2="131060" control-mode="bns"/></decision></layer><layer><decision><condition skill="131073"/><result context-2="131073" control-mode="bns"/></decision></layer><layer><decision><condition skill="131072"/><result context-2="131072" control-mode="bns"/></decision></layer><layer><decision><condition skill="131071"/><result context-2="131071" control-mode="bns"/></decision></layer><layer><decision><condition skill="131070"/><result context-2="131070" control-mode="bns"/>
+
+frozeStance
+<condition skill="131200"/><result context-2="131200" control-mode="bns"/>                                              ////   V
+</decision></layer><layer><decision><condition skill="131200"/><result skillbar-4="131200" control-mode="bns"/>             
+</decision></layer><layer><decision><condition skill="131200"/><result context-1="131200" control-mode="bns" key-status="unpress"/>
+</decision></layer><layer><decision><condition skill="131040"/><result context-2="131040" control-mode="bns"/>          ////   1   
+</decision></layer><layer><decision><condition skill="131010"/><result context-2="131010" control-mode="bns"/>          ////   Rmb
+</decision></layer><layer><decision><condition skill="131000"/><result context-2="131000" control-mode="bns"/>          ////   Lmb
+</decision></layer><layer><decision><condition skill="131061"/><result context-2="131061" control-mode="bns"/>          ////   2SB
+</decision></layer><layer><decision><condition skill="131060"/><result context-2="131060" control-mode="bns"/>
+</decision></layer><layer><decision><condition skill="131073"/><result context-2="131073" control-mode="bns"/>          ////   2
+</decision></layer><layer><decision><condition skill="131072"/><result context-2="131072" control-mode="bns"/>
+</decision></layer><layer><decision><condition skill="131071"/><result context-2="131071" control-mode="bns"/>
+</decision></layer><layer><decision><condition skill="131070"/><result context-2="131070" control-mode="bns"/>   
+
+<condition skill="131200"/><result context-2="131200" control-mode="bns"/></decision></layer><layer><decision><condition skill="131200"/><result skillbar-4="131200" control-mode="bns"/></decision></layer><layer><decision><condition skill="131200"/><result context-1="131200" control-mode="bns" key-status="unpress"/></decision></layer><layer><decision><condition skill="131040"/><result context-2="131040" control-mode="bns"/></decision></layer><layer><decision><condition skill="131010"/><result context-2="131010" control-mode="bns"/></decision></layer><layer><decision><condition skill="131000"/><result context-2="131000" control-mode="bns"/></decision></layer><layer><decision><condition skill="131061"/><result context-2="131061" control-mode="bns"/></decision></layer><layer><decision><condition skill="131060"/><result context-2="131060" control-mode="bns"/></decision></layer><layer><decision><condition skill="131073"/><result context-2="131073" control-mode="bns"/></decision></layer><layer><decision><condition skill="131072"/><result context-2="131072" control-mode="bns"/></decision></layer><layer><decision><condition skill="131071"/><result context-2="131071" control-mode="bns"/></decision></layer><layer><decision><condition skill="131070"/><result context-2="131070" control-mode="bns"/>
+
+V frozenStace
+</decision></layer><layer><decision><condition skill="131410"/><result skillbar-2="131410" control-mode="bns"/>
+</decision></layer><layer><decision><condition skill="131409"/><result skillbar-2="131409" control-mode="bns"/>
+</decision></layer><layer><decision><condition skill="131408"/><result skillbar-2="131408" control-mode="bns"/>
+</decision></layer><layer><decision><condition skill="131407"/><result skillbar-2="131407" control-mode="bns"/>
+</decision></layer><layer><decision><condition skill="131406"/><result skillbar-2="131406" control-mode="bns"/>
+</decision></layer><layer><decision><condition skill="131405"/><result skillbar-2="131405" control-mode="bns"/>
+</decision></layer><layer><decision><condition skill="131404"/><result skillbar-2="131404" control-mode="bns"/>
+</decision></layer><layer><decision><condition skill="131403"/><result skillbar-2="131403" control-mode="bns"/>
+</decision></layer><layer><decision><condition skill="131402"/><result skillbar-2="131402" control-mode="bns"/>
+</decision></layer><layer><decision><condition skill="131401"/><result skillbar-2="131401" control-mode="bns"/>
+</decision></layer><layer><decision><condition skill="131400"/><result skillbar-2="131400" control-mode="bns"/>
+
+</decision></layer><layer><decision><condition skill="131410"/><result skillbar-2="131410" control-mode="bns"/></decision></layer><layer><decision><condition skill="131409"/><result skillbar-2="131409" control-mode="bns"/></decision></layer><layer><decision><condition skill="131408"/><result skillbar-2="131408" control-mode="bns"/></decision></layer><layer><decision><condition skill="131407"/><result skillbar-2="131407" control-mode="bns"/></decision></layer><layer><decision><condition skill="131406"/><result skillbar-2="131406" control-mode="bns"/></decision></layer><layer><decision><condition skill="131405"/><result skillbar-2="131405" control-mode="bns"/></decision></layer><layer><decision><condition skill="131404"/><result skillbar-2="131404" control-mode="bns"/></decision></layer><layer><decision><condition skill="131403"/><result skillbar-2="131403" control-mode="bns"/></decision></layer><layer><decision><condition skill="131402"/><result skillbar-2="131402" control-mode="bns"/></decision></layer><layer><decision><condition skill="131401"/><result skillbar-2="131401" control-mode="bns"/></decision></layer><layer><decision><condition skill="131400"/><result skillbar-2="131400" control-mode="bns"/>
+
+Z Knockdown
+</decision></layer><layer><decision><condition skill="131151"/><result special-1="131151" control-mode="bns"/>
+
+1 Dash in Tab
+</decision></layer><layer><decision><condition skill="131231" variation-id="5"/><result cmd-key-double-left="501" cmd-key-double-right="501" cmd-key-down="131270" cmd-key-left="131300" cmd-key-right="131310" context-3="501" control-mode="bns" skillbar-1="131232" skillbar-2="501" skillbar-3="501" skillbar-4="501" skillbar-5="501" skillbar-6="501" skillbar-7="501" skillbar-8="501" stance="131231" stance-ui-effect="combo"/> 
+
+Replace untimate
+</decision></layer><layer><decision><condition skill="131150"/><result special-1="131150" control-mode="bns"/></decision></layer><layer><decision><condition skill="131170"/><result special-2="131170" control-mode="bns"/>
+-->

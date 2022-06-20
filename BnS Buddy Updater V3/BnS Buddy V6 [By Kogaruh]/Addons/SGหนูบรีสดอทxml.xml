@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="xml[bit].dat.files\\skill3_contextscriptdata_shooter_g2.xml">
+<!-- auto unload(F) -->
+<search><![CDATA[<result context-3="190360" context-ui-effect="key-change" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-3="190360" context-ui-effect="key-change" control-mode="bns" key-status="unpress"/>]]></replace>
+<!-- auto Triple Shot(3) -->
+<search><![CDATA[<result control-mode="bns" skillbar-3="190122"/>]]></search>
+<replace><![CDATA[<result control-mode="bns" skillbar-3="190122" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result control-mode="bns" skillbar-3="190121"/>]]></search>
+<replace><![CDATA[<result control-mode="bns" skillbar-3="190121" key-status="unpress"/>]]></replace>
+<!-- auto Back Tumble(F) -->
+<search><![CDATA[<result context-3="190510" control-mode="bns" skillbar-ui-effect="key-change"/>]]></search>
+<replace><![CDATA[<result context-3="190510" control-mode="bns" skillbar-ui-effect="key-change" key-status="unpress"/>]]></replace>
+<!-- auto Gunrise(Tab) -->
+<search><![CDATA[<result control-mode="bns" stance="190500"/>]]></search>
+<replace><![CDATA[<result control-mode="bns" stance="190500" key-status="unpress"/>]]></replace>
+<description>use f auto // set macro RB 3 to use</description>
+</file>
+</files>

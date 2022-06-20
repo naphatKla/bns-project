@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="xml[bit].dat.files\\skill3_contextscriptdata_swordmaster_g2.xml">
+<search><![CDATA[<result context-3="160050" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-1="160050" control-mode="bns" key-status="unpress"/>]]></replace>
+
+<search><![CDATA[<result context-3="160060" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-1="160060" control-mode="bns" key-status="unpress"/>]]></replace>
+
+<search><![CDATA[<result context-3="160051" context-ui-effect="event" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-1="160051" context-ui-effect="event" control-mode="bns" key-status="unpress"/>]]></replace>
+
+<search><![CDATA[<result context-3="160061" context-ui-effect="event" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-1="160061" context-ui-effect="event" control-mode="bns" key-status="unpress"/>]]></replace>
+
+<search><![CDATA[<condition combination-key-command-2="move-forward" skill="160430"/>]]></search>
+<replace><![CDATA[<condition skill="160430"/>]]></replace>
+
+<search><![CDATA[<result control-mode="bns" skillbar-7="160430"/>]]></search>
+<replace><![CDATA[<result control-mode="bns" context-ui-effect="event" context-3="160430"/>]]></replace>
+<description>Move Flash[F] to Lmb auto and move FlashStep[W+C] to F</description>
+</file>
+</files>

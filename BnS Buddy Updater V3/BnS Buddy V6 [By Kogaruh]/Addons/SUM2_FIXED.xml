@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="xml[bit].dat.files\\skill3_contextscriptdata_summoner_g2.xml">
+
+<search><![CDATA[<condition skill="152005"/>]]></search>
+<replace><![CDATA[<!-- <condition skill="152005" /> -->]]></replace>
+
+<search><![CDATA[<result context-2="152005" control-mode="classic" key-status="unpress" skillbar-ui-effect="key-change"/>]]></search>
+<replace><![CDATA[<!-- <result context-2="152005" control-mode="classic" key-status="unpress" skillbar-ui-effect="key-change" /> -->]]></replace>
+
+<search><![CDATA[<result context-2="152005" control-mode="bns" key-status="unpress" skillbar-ui-effect="key-change"/>]]></search>
+<replace><![CDATA[<!-- <result context-2="152005" control-mode="bns" key-status="unpress" skillbar-ui-effect="key-change" /> -->]]></replace>
+
+<search><![CDATA[<condition skill="152004"/>]]></search>
+<replace><![CDATA[<!-- <condition skill="152004" /> -->]]></replace>
+
+<search><![CDATA[<result context-2="152004" control-mode="classic" key-status="unpress" skillbar-ui-effect="key-change"/>]]></search>
+<replace><![CDATA[<!-- <result context-2="152004" control-mode="classic" key-status="unpress" skillbar-ui-effect="key-change" /> -->]]></replace>
+
+<search><![CDATA[<result context-2="152004" control-mode="bns" key-status="unpress" skillbar-ui-effect="key-change"/>]]></search>
+<replace><![CDATA[<!-- <result context-2="152004" control-mode="bns" key-status="unpress" skillbar-ui-effect="key-change" /> -->]]></replace>
+
+<search><![CDATA[<result control-mode="classic" skillbar-4="152026"/>]]></search>
+<replace><![CDATA[<result control-mode="classic" skillbar-4="152026" /> </decision> </layer> <layer> <decision> <condition skill="152005" /> <result context-2="152005" control-mode="classic" key-status="unpress" skillbar-ui-effect="key-change" /> <result context-2="152005" control-mode="bns" key-status="unpress" skillbar-ui-effect="key-change" /> </decision> </layer> <layer> <decision> <condition skill="152004" /> <result context-2="152004" control-mode="classic" key-status="unpress" skillbar-ui-effect="key-change" /> <result context-2="152004" control-mode="bns" key-status="unpress" skillbar-ui-effect="key-change" /> </decision> </layer> <layer> <decision> <condition skill="152003" variation-id="3" /> <result context-2="152003" context-ui-effect="event" control-mode="bns" /> <result context-2="152003" context-ui-effect="event" control-mode="classic" />]]></replace>
+
+<search><![CDATA[<result context-3="152028" context-ui-effect="event" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result skillbar-2="152028" context-ui-effect="event" control-mode="bns"/>]]></replace>
+
+<search><![CDATA[<result context-3="152028" context-ui-effect="event" control-mode="classic"/>]]></search>
+<replace><![CDATA[<result skillbar-2="152028" context-ui-effect="event" control-mode="classic"/>]]></replace>
+
+<search><![CDATA[<result context-3="152030" context-ui-effect="event" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result skillbar-2="152030" context-ui-effect="event" control-mode="bns"/>]]></replace>
+
+<search><![CDATA[<result context-3="152030" context-ui-effect="event" control-mode="classic"/>]]></search>
+<replace><![CDATA[<result skillbar-2="152030" context-ui-effect="event" control-mode="classic"/>]]></replace>
+
+<search><![CDATA[<result context-3="152027" context-ui-effect="event" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result skillbar-2="152027" context-ui-effect="event" control-mode="bns"/>]]></replace>
+
+<search><![CDATA[<result context-3="152027" context-ui-effect="event" control-mode="classic"/>]]></search>
+<replace><![CDATA[<result skillbar-2="152027" context-ui-effect="event" control-mode="classic"/>]]></replace>
+
+<description>Description = Flying Nettles+Burr Toss on 2</description>
+</file>
+</files>
+
+

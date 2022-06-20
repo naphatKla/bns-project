@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="xml[bit].dat.files\\skill3_contextscriptdata_shooter_contextsimplemode_g3.xml">
+<!-- add reload condition -->
+<search><![CDATA[<stance stance="런처모드" status="stance">]]></search>
+<replace><![CDATA[<stance stance="런처모드" status="stance"><layer><decision><condition skill="194468"/><result context-1="194468" context-ui-effect="key-change" control-mode="bns"/></decision></layer><layer><decision><condition skill="194467"/><result context-1="194467" context-ui-effect="key-change" control-mode="bns"/></decision></layer><layer><decision><condition skill="194466"/><result context-1="194466" context-ui-effect="key-change" control-mode="bns"/></decision></layer><layer><decision><condition skill="194465"/><result context-1="194465" context-ui-effect="key-change" control-mode="bns"/></decision></layer><layer><decision><condition skill="194464"/><result context-1="194464" context-ui-effect="key-change" control-mode="bns"/></decision></layer><layer><decision><condition skill="194463"/><result context-1="194463" context-ui-effect="key-change" control-mode="bns"/></decision></layer><layer><decision><condition skill="194462"/><result context-1="194462" context-ui-effect="key-change" control-mode="bns"/></decision></layer><layer><decision><condition skill="194461"/><result context-1="194461" context-ui-effect="key-change" control-mode="bns"/></decision></layer><layer><decision><condition skill="194460"/><result context-1="194460" context-ui-effect="key-change" control-mode="bns"/></decision></layer>]]></replace>
+<!-- edit skillbar -->
+<search><![CDATA[<result cmd-key-double-left="501" cmd-key-double-right="501" cmd-key-down="195200" cmd-key-left="194300" cmd-key-right="194200" context-1="194470" context-2="194150" control-mode="bns" skillbar-1="194100" skillbar-2="194280" skillbar-3="194060" skillbar-4="193000" skillbar-5="193020" skillbar-6="190200" skillbar-7="194420" skillbar-8="194260" stance="194380"/>]]></search>
+<replace><![CDATA[<result cmd-key-double-left="501" cmd-key-double-right="501" cmd-key-down="195200" cmd-key-left="194300" cmd-key-right="194200" context-1="194460" context-2="194150" control-mode="bns" skillbar-1="194100" skillbar-2="194280" skillbar-3="194060" skillbar-4="193000" skillbar-5="193020" skillbar-6="190200" skillbar-7="194420" skillbar-8="194260" stance="194380"/>]]></replace>
+<description>Fix bug sg3 can't reload</description>
+</file>
+</files>
+<!--
+<search><![CDATA[ ]]></search>
+<replace><![CDATA[ ]]></replace>
+
+<stance stance="런처모드" status="stance"> = Bug stance
+<layer><decision><condition skill="194468"/><result context-1="194468" context-ui-effect="key-change" control-mode="bns"/></decision></layer>
+-->
+
+

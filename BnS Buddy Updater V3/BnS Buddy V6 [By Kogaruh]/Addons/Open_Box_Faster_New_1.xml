@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="xml[bit].dat.files\\client.config2.xml">
+<search><![CDATA[<option name="self-restraint-gauge-time" value="1.250000"/>]]></search>
+<replace><![CDATA[<option name="self-restraint-gauge-time" value="0.01"/>]]></replace>
+<search><![CDATA[<option name="item-transform-progressing-particle-duration" value="3.0"/>]]></search>
+<replace><![CDATA[<option name="item-transform-progressing-particle-duration" value="0.01"/>]]></replace>
+<search><![CDATA[<option name="showtype-party-6-dungeon-and-cave" value="1"/>]]></search>
+<replace><![CDATA[<option name="showtype-party-6-dungeon-and-cave" value="2"/>]]></replace>
+<search><![CDATA[<option name="action-target-distance" value="2.500000"/>]]></search>
+<replace><![CDATA[<option name="action-target-distance" value="5"/>]]></replace>
+</file>
+</files>

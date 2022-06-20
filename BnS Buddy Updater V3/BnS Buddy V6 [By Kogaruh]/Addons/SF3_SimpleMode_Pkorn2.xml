@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="xml[bit].dat.files\\skill3_contextscriptdata_soulfighter_g3_contextsimplemode.xml">
+<!-- Tab to LMB -->
+<search><![CDATA[<condition skill="183071"/>]]></search>
+<replace><![CDATA[<condition skill="183160"/><result context-1="183160" context-ui-effect="event" control-mode="bns"/></decision></layer><layer><decision><condition skill="183300"/><result control-mode="bns" context-2="183300" skillbar-ui-effect="event" key-status="unpress"/></decision></layer><layer><decision><condition skill="183071"/>]]></replace>
+<!-- auto Tab -->
+<search><![CDATA[<result control-mode="bns" stance="181300"/>]]></search>
+<replace><![CDATA[<result control-mode="bns" stance="181300" key-status="unpress"/>]]></replace>
+<!-- auto X -->
+<search><![CDATA[<result control-mode="bns" skillbar-6="183300" skillbar-ui-effect="event"/>]]></search>
+<replace><![CDATA[<result control-mode="bns" skillbar-ui-effect="event" key-status="unpress"/>]]></replace>
+<description>Move Tab In stance to LMB ,  Auto Tab</description>
+</file>
+</files>

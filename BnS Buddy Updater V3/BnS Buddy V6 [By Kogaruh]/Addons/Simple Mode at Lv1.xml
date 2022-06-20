@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="config[bit].dat.files\\system.config2.xml">
+<search><![CDATA[<option name="use-context-simple-mode-player-character-level" value="50"/>]]></search>
+<replace><![CDATA[<option name="use-context-simple-mode-player-character-level" value="1"/>]]></replace>
+<description>You may use Simplified Mode at Level 1.</description>
+</file>
+</files>

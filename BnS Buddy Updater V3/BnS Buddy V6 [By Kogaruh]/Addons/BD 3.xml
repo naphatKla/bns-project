@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="xml[bit].dat.files\\skill3_contextscriptdata_swordmaster_contextsimplemode_g3.xml">
+<!-- Fix SimpleMode C V F outStance to correct rotation -->
+<search><![CDATA[<condition skill="183005"/>]]></search>
+<replace><![CDATA[<condition skill="163127"/><result control-mode="bns" context-2="163127" context-ui-effect="combo"/></decision></layer><layer><decision><condition skill="163126"/><result control-mode="bns" context-2="163126" context-ui-effect="combo"/></decision></layer><layer><decision><condition skill="163125"/><result control-mode="bns" context-2="163125" context-ui-effect="combo"/></decision></layer><layer><decision><condition skill="163124"/><result control-mode="bns" context-2="163124" context-ui-effect="combo"/></decision></layer><layer><decision><condition skill="163123"/><result control-mode="bns" context-2="163123" context-ui-effect="combo"/></decision></layer><layer><decision><condition skill="163122"/><result control-mode="bns" context-2="163122" context-ui-effect="combo"/></decision></layer><layer><decision><condition skill="163121"/><result control-mode="bns" context-2="163121" context-ui-effect="combo"/></decision></layer><layer><decision><condition skill="163120"/><result control-mode="bns" context-2="163120" context-ui-effect="combo"/></decision></layer><layer><decision><condition skill="163128"/><result control-mode="bns" context-2="163128" context-ui-effect="combo"/></decision></layer><layer><decision><condition skill="163129"/><result control-mode="bns" context-2="163129" context-ui-effect="combo"/></decision></layer><layer><decision><condition skill="163033"/><result control-mode="bns" context-2="163033"/></decision></layer><layer><decision><condition skill="163023"/><result control-mode="bns" context-2="163023"/></decision></layer><layer><decision><condition skill="163022"/><result control-mode="bns" context-ui-effect="combo" context-2="163022"/></decision></layer><layer><decision><condition skill="163032"/><result control-mode="bns" context-ui-effect="combo" context-2="163032"/></decision></layer><layer><decision><condition skill="163011"/><result control-mode="bns" context-2="163011"/></decision></layer><layer><decision><condition skill="163010"/><result control-mode="bns" context-2="163010"/></decision></layer><layer><decision><condition skill="163402"/><result control-mode="bns" context-2="163402" context-ui-effect="combo"/></decision></layer><layer><decision><condition skill="163401"/><result control-mode="bns" context-2="163401" context-ui-effect="combo"/></decision></layer><layer><decision><condition skill="163400"/><result control-mode="bns" context-2="163400" context-ui-effect="combo"/></decision></layer><layer><decision><condition skill="163002"/><result control-mode="bns" context-2="163002" context-ui-effect="combo"/></decision></layer><layer><decision><condition skill="163001"/><result control-mode="bns" context-2="163001" context-ui-effect="combo"/></decision></layer><layer><decision><condition skill="163000"/><result control-mode="bns" context-2="163000" context-ui-effect="combo"/></decision></layer><layer><decision><condition skill="183005"/>]]></replace>
+<!-- Move F Bigsword to context-2 -->
+<search><![CDATA[<result context-3="163120" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-3="163120" control-mode="bns" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-3="163121" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-3="163121" control-mode="bns" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-3="163122" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-3="163122" control-mode="bns" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-3="163123" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-3="163123" control-mode="bns" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-3="163124" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-3="163124" control-mode="bns" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-3="163125" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-3="163125" control-mode="bns" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-3="163126" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-3="163126" control-mode="bns" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-3="163127" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-3="163127" control-mode="bns" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-3="163128" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-3="163128" control-mode="bns" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-3="163129" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-3="163129" control-mode="bns" key-status="unpress"/>]]></replace>
+<!-- Move Z Dismiss to special-2 -->
+<search><![CDATA[<result control-mode="bns" skillbar-5="163105"/>]]></search>
+<replace><![CDATA[<result control-mode="bns" special-2="163105"/>]]></replace>
+<!-- Move Lmb Reap to context-2 -->
+<search><![CDATA[<condition skill="163040"/>]]></search>
+<replace><![CDATA[<condition skill="163361"/><result context-1="163361" control-mode="bns" skillbar-ui-effect="combo" key-status="unpress"/></decision></layer><layer><decision><condition skill="163040"/>]]></replace>
+<!-- Instance Auto Cancel ani -->
+<search><![CDATA[<result context-2="163050" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-2="163050" control-mode="bns" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-2="163051" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-2="163051" control-mode="bns" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-2="163052" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-2="163052" control-mode="bns" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-2="163440" control-mode="bns" skillbar-ui-effect="combo"/>]]></search>
+<replace><![CDATA[<result context-2="163440" control-mode="bns" skillbar-ui-effect="combo" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-2="163442" control-mode="bns" skillbar-ui-effect="combo"/>]]></search>
+<replace><![CDATA[<result context-2="163442" control-mode="bns" skillbar-ui-effect="combo" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-2="163443" control-mode="bns" skillbar-ui-effect="combo"/>]]></search>
+<replace><![CDATA[<result context-2="163443" control-mode="bns" skillbar-ui-effect="combo" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-2="163043" control-mode="bns" skillbar-ui-effect="combo"/>]]></search>
+<replace><![CDATA[<result context-2="163043" control-mode="bns" skillbar-ui-effect="combo" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-2="163042" control-mode="bns" skillbar-ui-effect="combo"/>]]></search>
+<replace><![CDATA[<result context-2="163042" control-mode="bns" skillbar-ui-effect="combo" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-2="163040" control-mode="bns" skillbar-ui-effect="combo"/>]]></search>
+<replace><![CDATA[<result context-2="163040" control-mode="bns" skillbar-ui-effect="combo" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-ui-effect="combo" control-mode="bns" skillbar-7="163022"/>]]></search>
+<replace><![CDATA[<result context-ui-effect="combo" control-mode="bns" skillbar-7="163022" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-2="163023" context-ui-effect="combo" control-mode="bns"/>]]></search>
+<replace><![CDATA[<result context-2="163023" context-ui-effect="combo" control-mode="bns" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-ui-effect="event" control-mode="bns" skillbar-8="163032"/>]]></search>
+<replace><![CDATA[<result context-ui-effect="event" control-mode="bns" skillbar-8="163032" key-status="unpress"/>]]></replace>
+<search><![CDATA[<result context-ui-effect="event" control-mode="bns" skillbar-8="163033"/>]]></search>
+<replace><![CDATA[<result context-ui-effect="event" control-mode="bns" skillbar-8="163033" key-status="unpress"/>]]></replace>
+<search><![CDATA[<condition skill="163052"/>]]></search>
+<replace><![CDATA[<condition skill="163052"/><result context-3="163052" control-mode="bns" key-status="unpress"/></decision></layer><layer><decision><condition skill="163051"/><result context-3="163051" control-mode="bns" key-status="unpress"/></decision></layer><layer><decision><condition skill="163050"/><result context-3="163050" control-mode="bns" key-status="unpress"/></decision></layer><layer><decision><condition skill="163052"/>]]></replace>
+<search><![CDATA[<result context-2="163060" control-mode="bns" skillbar-ui-effect="combo"/>]]></search>
+<replace><![CDATA[<result context-2="163060" control-mode="bns" skillbar-ui-effect="combo" key-status="unpress"/>]]></replace>
+</file>
+</files>
+
+<!-- 
+
+<search><![CDATA[ ]]></search>
+<replace><![CDATA[ ]]></replace>
+</decision></layer><layer><decision>
+
+
+<condition skill="163402"/><result control-mode="bns" context-2="163402" context-ui-effect="combo"/></decision></layer><layer><decision><condition skill="163401"/><result control-mode="bns" context-2="163401" context-ui-effect="combo"/></decision></layer><layer><decision><condition skill="163400"/><result control-mode="bns" context-2="163400" context-ui-effect="combo"/></decision></layer><layer><decision>
+<condition skill="163051"/><result context-2="163051" control-mode="bns" key-status="unpress"/></decision></layer><layer><decision><condition skill="163050"/><result context-2="163050" control-mode="bns" key-status="unpress"/></decision></layer><layer><decision>
+
+สถานะปัจจุบัน = Debug บรรทัด 6 3 ตัวท้าย
+163021 = ท่า C ที่จอมปีศาจออก
+163022 = ท่า C ปกติตอนที่มี 3 แสตก *** ปัญหา
+163023 = ท่า C ที่จอมปีศาจออก 3 แสตก ***
+163024 = รอทดสอบ
+
+163032 = ท่า V ปกติตอนที่มี 3 แสตก ** ปัญหา
+163033 = ท่า V ที่จอมปีศาจออก 3 แสตก ***
+163034 = รอทดสอบ
+
+=========================================================
+
+ท่า F ดาบบัญชาปีศาจ
+รอการทดสอบ
+ผลเหมือนกัน
+
+163010 = Main
+163011 = Main
+
+=========================================================
+
+ท่า F ดาบคู่ประสาน
+รอการทดสอบ
+
+163050 = Main-ดาบครั้งที่ 1
+163051 = ครั้งที่ 2
+163052 = ครั้งที่ 3
+
+=========================================================
+
+ท่า F ดาบใหญ่
+รอการทดสอบ
+
+163120 = Main ดาบใหญ่ 1 แตก
+163121 = ดาบใหญ่ 2 แสตก
+163122 = ดาบใหญ่ 3 แสตก
+...
+163129 = ดาบใหญ่ 10 แสตก
+
+=========================================================
+163000 = Main คลิกขวา
+
+ปัญหา สกิล C เอาไปไว้กับ V ไม่ได้
+726-2360
+
+-->
