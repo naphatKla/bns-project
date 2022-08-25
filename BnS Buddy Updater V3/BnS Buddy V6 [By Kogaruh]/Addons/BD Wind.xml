@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="xml[bit].dat.files\\skill3_contextscriptdata_swordmaster_g1.xml">
+<search><![CDATA[<result control-mode="bns" skillbar-7="160552"/>]]></search>
+<replace><![CDATA[<result control-mode="bns" context-1="160552"/>]]></replace>
+<search><![CDATA[<stance stance="검술" status="stance">]]></search>
+<replace><![CDATA[<stance stance="검술" status="stance"><layer><decision><condition skill="160552"/><result control-mode="bns" context-1="160552"/></decision></layer>]]></replace>
+<description>Move Five point strike to F</description>
+</file>
+</files>
+
+<!-- 
+    <search><![CDATA[<result context-3="160050" control-mode="bns"/>]]></search>
+    <replace><![CDATA[<result context-1="160050" control-mode="bns"/>]]></replace>
+
+-->

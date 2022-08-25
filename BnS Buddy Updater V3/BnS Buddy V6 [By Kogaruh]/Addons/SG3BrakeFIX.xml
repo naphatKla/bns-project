@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="xml[bit].dat.files\\skill3_contextscriptdata_shooter_contextsimplemode_g3.xml">
+<!-- add auto slow to stance -->
+<search><![CDATA[<stance stance="런처모드" status="stance">]]></search>
+<replace><![CDATA[<stance stance="런처모드" status="stance"><layer><decision><condition skill="190840"/><result context-ui-effect="key-change" control-mode="bns" skillbar-1="190840" key-status="unpress"/></decision></layer>]]></replace>
+
+<!-- auto slow-->
+<search><![CDATA[<result context-ui-effect="key-change" control-mode="bns" skillbar-1="190840"/>]]></search>
+<replace><![CDATA[<result context-ui-effect="key-change" control-mode="bns" skillbar-1="190840" key-status="unpress"/>]]></replace>
+
+<description>Auto slow break on sg3 in and out of stand</description>
+</file>
+</files>
+<!--
+<search><![CDATA[ ]]></search>
+<replace><![CDATA[ ]]></replace>
+
+<stance stance="런처모드" status="stance"> = Bug stance
+<layer><decision><condition skill="194468"/><result context-1="194468" context-ui-effect="key-change" control-mode="bns"/></decision></layer>
+-->
+
+

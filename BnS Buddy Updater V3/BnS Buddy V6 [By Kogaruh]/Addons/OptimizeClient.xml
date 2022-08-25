@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="xml[bit].dat.files\\client.config2.xml">
+<search><![CDATA[<option name="pending-time" value="0.300000"/>]]></search>
+<replace><![CDATA[<option name="pending-time" value="0.000000"/>]]></replace>
+<search><![CDATA[<option name="pressed-key-tick-time" value="0.25"/>]]></search>
+<replace><![CDATA[<option name="pressed-key-tick-time" value="0.00"/>]]></replace>
+<search><![CDATA[<option name="exit-game-waiting-time" value="10.000000"/>]]></search>
+<replace><![CDATA[<option name="exit-game-waiting-time" value="0.000000"/>]]></replace>
+
+<description>Optimize Client</description>
+</file>
+</files>
+
+<!-- 
+<search><![CDATA[ ]]></search>
+<replace><![CDATA[ ]]></replace>
+-->

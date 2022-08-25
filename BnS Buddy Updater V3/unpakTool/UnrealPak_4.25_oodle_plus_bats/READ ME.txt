@@ -1,0 +1,5 @@
+NAVIGATE INTO : Engine\Binaries\Win64
+TO UNPACK PAK DRAG A PAK FILE ONTO Extract-Pak.bat
+TO REPACK PAK DRAG FOLDER/FILE(S) ONTO Repack-Pak.bat
+
+To learn modding search up youtube videos and use UnrealEngine 4.25 for baking assets :conehead:

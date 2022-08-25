@@ -2,16 +2,19 @@
 <files>
 <file path="xml[bit].dat.files\\skill3_contextscriptdata_swordmaster_g2.xml">
 <search><![CDATA[<result context-3="160050" control-mode="bns"/>]]></search>
-<replace><![CDATA[<result context-1="160050" control-mode="bns" key-status="unpress"/>]]></replace>
+<replace><![CDATA[<result context-1="160050" control-mode="bns"/>]]></replace>
 
 <search><![CDATA[<result context-3="160060" control-mode="bns"/>]]></search>
-<replace><![CDATA[<result context-1="160060" control-mode="bns" key-status="unpress"/>]]></replace>
+<replace><![CDATA[<result context-1="160060" control-mode="bns"/>]]></replace>
 
 <search><![CDATA[<result context-3="160051" context-ui-effect="event" control-mode="bns"/>]]></search>
-<replace><![CDATA[<result context-1="160051" context-ui-effect="event" control-mode="bns" key-status="unpress"/>]]></replace>
+<replace><![CDATA[<result context-1="160051" context-ui-effect="event" control-mode="bns"/>]]></replace>
 
 <search><![CDATA[<result context-3="160061" context-ui-effect="event" control-mode="bns"/>]]></search>
-<replace><![CDATA[<result context-1="160061" context-ui-effect="event" control-mode="bns" key-status="unpress"/>]]></replace>
+<replace><![CDATA[<result context-1="160061" context-ui-effect="event" control-mode="bns"/>]]></replace>
+
+<search><![CDATA[<condition skill="160061"/>]]></search>
+<replace><![CDATA[<condition skill="160061"/><result special-2="160061" context-ui-effect="event" control-mode="bns" key-status="unpress"/></decision></layer><layer><decision><condition skill="160060"/><result special-2="160060" context-ui-effect="event" control-mode="bns" key-status="unpress"/></decision></layer><layer><decision><condition skill="160051"/><result special-2="160051" context-ui-effect="event" control-mode="bns" key-status="unpress"/></decision></layer><layer><decision><condition skill="160050"/><result special-2="160050" context-ui-effect="event" control-mode="bns" key-status="unpress"/></decision></layer><layer><decision><condition skill="160061"/>]]></replace>
 
 <search><![CDATA[<condition combination-key-command-2="move-forward" skill="160430"/>]]></search>
 <replace><![CDATA[<condition skill="160430"/>]]></replace>

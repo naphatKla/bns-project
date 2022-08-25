@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+<file path="xml[bit].dat.files\\client.config2.xml">
+<search><![CDATA[<option name="use-optimal-performance-mode-option" value="false"/>]]></search>
+<replace><![CDATA[<option name="use-optimal-performance-mode-option" value="true"/>]]></replace>
+<description>Test</description>
+</file>
+</files>
+
+<!--
+<search><![CDATA[ ]]></search>
+<replace><![CDATA[ ]]></replace>
+-->
