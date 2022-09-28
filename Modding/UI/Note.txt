@@ -1,0 +1,78 @@
+Modding UI
+====================================================================
+Introduction
+
+Modding is very sensitive!! 
+your mod have to contain the folder name and organize same with
+original path
+
+ex. original folder path is "BNSR/Content/Art/UI/GameUI"
+	but your mod folder path is "BNS/Art/GameUI" 
+	Your mod will not working!!
+	because you folder name not same with original path
+	game engine can't read your mod !!
+
+=====================================================================
+How to modding ( recreate for another mod )
+
+ You can find the original path in folder "pak_filelist_UE4_3"
+ by open all of them in notepad++ and Ctrl + F  Seach keyword all of file
+
+  the original ui path is "BNSR/Content/Art/UI/..."
+
+ but the easy way to mod is " recreate(edit) from another mod "
+-----------------------------------------------------------------------
+
+1)	take file .pak of mod that you need to edit to unpack with unrealPack
+	if you use my BluePrint skip to step 5
+
+2)  then you will get some of asset (file .uasset) 
+
+!!!! Warnning !!!!!
+- if you extract .pak file from unrealPack "you Can't replace them back"
+	the repack file (.pak) will not working
+	because the repack file have some path not same with original path.
+	to fix it 
+	" you have to create the folder and organize same with original path"
+
+3) open the folder that already unpack to the "umodel"
+
+4) then you can export the .uasset to .TGA(picture file) by click Export 
+	!! don't forget to change texture format to "TGA (uncompressed) "
+		befor export. it make you get master quality !! 
+
+5) after you get .TGA  you can edit the ui in photoshop 
+
+6) If you already done you have to save .TGA file ( don't check compressed option)
+
+7) Open unreal engine 4.25
+
+8) Create new project  Game -> blank -> No starter content
+
+9) Delet all of thing with starter on World Outliner
+
+10) Create folder "NameOfMod/BNSR/Content/Art/UI/"
+
+11) pull your mod folder "GameUI" and "GameUI_BNSR" to folder "UI" in unreal engine
+
+12) option  Edit -> project edit -> packaging -> uncheck "use pack file"
+
+13) save with  file -> save all
+
+14)  option  File -> package project -> win64 -> create folder "Render" to contain -> select folder
+
+15) after done you mod folder will in the unreal project " Render\WindowsNoEditor\NameOfFolder\Content"
+
+16) to be save create new folder and pull your mod folder in it
+
+17) take your mod folder to repack with unrealPack. You will get .pak file
+
+18) then take some of .SIG file from another mod and rename it follow wit "_p"
+	.pak and .SIG file must have same name!!
+
+	ex PinkUI_p.PAK
+	   PinkUI_p.SIG
+
+19) you can install it by take .pak & .sig to mods folder in BNS
+
+==================================================================================================================

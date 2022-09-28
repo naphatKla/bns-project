@@ -1,0 +1,1 @@
+"C:\CodingPJ\BNSedit\Editor\unpakTool\UnrealPak_4.25_oodle_plus_bats\Engine\Binaries\Win64\Pak0-Local\*.*" "..\..\..\*.*" 

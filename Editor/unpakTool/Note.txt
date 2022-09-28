@@ -1,0 +1,11 @@
+modding tools
+===========================================================
+
+unrealPack_4.25 Use to unpack and repack .pak file
+Go to UnrealPak_4.25_oodle_plus_bats\Engine\Binaries\Win64
+
+pull file .pak to ...
+Extract-pak.bat   to Extract .pak file
+Repack-pak.bat    to Repack .pak file
+
+folder extract or repack will be create in path
