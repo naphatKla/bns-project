@@ -7,7 +7,7 @@
   <setting name="textshade">-1</setting>
   <setting name="theme">DARK</setting>
   <setting name="unattended">false</setting>
-  <setting name="notexturestreaming">true</setting>
+  <setting name="notexturestreaming">false</setting>
   <setting name="savelogs">false</setting>
   <setting name="showlogs">true</setting>
   <setting name="customgame">false</setting>
@@ -25,13 +25,13 @@
   <setting name="updatechecker">true</setting>
   <setting name="pingchecker">true</setting>
   <setting name="gamekiller">true</setting>
-  <setting name="useallcores">true</setting>
+  <setting name="useallcores">false</setting>
   <setting name="arguments">
   </setting>
   <setting name="prtime">5000</setting>
   <setting name="autoupdate">true</setting>
   <setting name="firsttime">false</setting>
-  <setting name="_default">C:\Garena\Games\32835\</setting>
+  <setting name="_default">C:\Program Files (x86)\NCSOFT\BNS_UE4\</setting>
   <setting name="defaultset">true</setting>
   <setting name="defaultclient">
   </setting>
@@ -42,7 +42,7 @@
   <setting name="rememberme">false</setting>
   <setting name="automemorycleanup">false</setting>
   <setting name="langset">true</setting>
-  <setting name="langpath">Thai</setting>
+  <setting name="langpath">ChineseT</setting>
   <setting name="boostprocess">true</setting>
   <setting name="cleanint">OFF</setting>
   <setting name="uniquepass">UNUSED</setting>
@@ -53,7 +53,7 @@
   <setting name="showcount">true</setting>
   <setting name="customclientname">
   </setting>
-  <setting name="lastserver">Garena</setting>
+  <setting name="lastserver">Taiwan</setting>
   <setting name="affinityproc">All</setting>
   <setting name="keepintray">false</setting>
   <setting name="startwWindows">false</setting>
@@ -63,7 +63,7 @@
   <setting name="usesystemproxy">false</setting>
   <setting name="maintenancecheck">true</setting>
   <setting name="timestamplogs">false</setting>
-  <setting name="garenaclientpath">C:\Garena\Games\32835\</setting>
+  <setting name="garenaclientpath">C:\Program Files (x86)\NCSOFT\BNS_UE4\</setting>
   <setting name="dx912check">true</setting>
   <setting name="autogamecatcher">true</setting>
   <setting name="licenseemail">
